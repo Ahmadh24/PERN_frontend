@@ -9,6 +9,7 @@ function Websites() {
   useEffect(() => {
     axios
       .get(`${API}/websites`)
+      console.log("hi")
       .then((response) => setWebsites(response.data))
       .catch((c) => console.error("catch", c));
   }, []);
