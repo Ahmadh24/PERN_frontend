@@ -2,13 +2,13 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import Website from "./Website";
 
-const API = process.env.REACT_APP_API_URL;
+//const API = process.env.REACT_APP_API_URL;
 
 function Websites() {
   const [websites, setWebsites] = useState([]);
   useEffect(() => {
     axios
-      .get(`${API}/websites`)
+      .get(`https://pern-backend-413r.onrender.com/websites`)
       .then((response) => setWebsites(response.data))
       .catch((c) => console.error("catch", c));
   }, []);

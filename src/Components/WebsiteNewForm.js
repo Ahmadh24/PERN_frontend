@@ -2,14 +2,14 @@ import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API = process.env.REACT_APP_API_URL;
+//const API = process.env.REACT_APP_API_URL;
 
 function WebsiteNewForm() {
   let navigate = useNavigate();
 
   const addWebsite = (newwebsite) => {
     axios
-      .post(`${API}/websites`, newwebsite)
+      .post(`https://pern-backend-413r.onrender.com/websites`, newwebsite)
       .then(() => {
         navigate(`/websites`);
       })
