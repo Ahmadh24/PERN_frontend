@@ -25,7 +25,7 @@ function Websites() {
           </thead>
           <tbody>
             {websites.map((website) => {
-              return <website key={website.id} website={website} />;
+              return <Website key={website.id} website={website} />;
             })}
           </tbody>
         </table>
