@@ -7,9 +7,9 @@ import { useNavigate } from "react-router-dom";
 function WebsiteNewForm() {
   let navigate = useNavigate();
 
-  const addWebsite = (newwebsite) => {
+  const addWebsite = (newWebsite) => {
     axios
-      .post(`https://pern-backend-413r.onrender.com/websites`, newwebsite)
+      .post(`https://pern-backend-413r.onrender.com/websites`, newWebsite)
       .then(() => {
         navigate(`/websites`);
       })

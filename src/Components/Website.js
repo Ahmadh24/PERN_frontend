@@ -15,7 +15,7 @@ function Website({ website }) {
           {website.name}
         </a>
       </td>
-      <td className="website">
+      <td className="Website">
         <Link to={`/websites/${website.id}`}>✏️</Link>
       </td>
     </tr>

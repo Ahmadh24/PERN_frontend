@@ -14,7 +14,7 @@ function WebsiteDetails() {
       setWebsite(response.data);
     });
   }, [id, navigate, API]);
-  const deletewebsite = () => {
+  const deleteWebsite = () => {
     axios
       .delete(`${API}/websites/${id}`)
       .then(() => {
@@ -23,7 +23,7 @@ function WebsiteDetails() {
       .catch((c) => console.error("catch", c));
   };
   const handleDelete = () => {
-    deletewebsite();
+    deleteWebsite();
   };
   return (
     <>

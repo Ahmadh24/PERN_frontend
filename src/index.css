@@ -15,7 +15,7 @@ main {
 
 a {
   text-decoration: none;
-  color: #4442a5;
+  color: #1c1c20;
 }
 
 h4 {
@@ -42,11 +42,6 @@ tbody tr:nth-child(even) {
   background: #f4eafd;
 }
 
-.New {
-  /* border: 1px solid gold;
-  margin: auto;
-  width: 95%; */
-}
 
 .New form {
   margin: auto;
