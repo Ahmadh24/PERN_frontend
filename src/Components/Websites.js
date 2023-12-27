@@ -20,7 +20,7 @@ function Websites() {
             <tr>
               <th></th>
               <th>Take me there</th>
-              <th>See this website</th>
+              <th>See this post</th>
             </tr>
           </thead>
           <tbody>
