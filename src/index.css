@@ -1,5 +1,6 @@
+
 nav {
-  background: #15a499;
+  background: #f3cf94;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,9 +39,9 @@ tbody td:not(td:first-of-type):hover {
   opacity: 0.9;
 }
 
-tbody tr:nth-child(even) {
-  background: #f4eafd;
-}
+/* tbody tr:nth-child(even) {
+  background: #f9f7f7;
+} */
 
 
 .New form {

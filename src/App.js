@@ -1,6 +1,6 @@
 // DEPENDENCIES
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import Background from './Components/Background';
 // PAGES
 import Edit from "./Pages/Edit";
 import FourOFour from "./Pages/FourOFour";
@@ -16,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <Background />
         <NavBar />
         <main>
           <Routes>

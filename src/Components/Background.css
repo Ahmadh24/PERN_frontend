@@ -1,0 +1,14 @@
+/* Background.css */
+.background-image {
+    position: fixed; /* or position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Set a higher z-index to place it behind other content */
+    background-image: url('./image/gradient.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  }
